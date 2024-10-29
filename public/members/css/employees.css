@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111; /* Dark Background */
+  color: #f00; /* Red Text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  font-size: 36px;
+}
+
+.content, .main, .leaders {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #f00; /* Red Border */
+  border-radius: 5px;
+}
+
+.content p, .main p, .leaders p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #f00; /* Red Button */
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #c00; /* Darker Red on Hover */
+}
